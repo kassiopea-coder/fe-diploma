@@ -1,0 +1,135 @@
+.footer {
+   height: 519px;
+
+   background: #2d2b2f;
+   color: #e5e5e5;
+}
+
+.footer_content {
+}
+
+.footer_contacts-wrapper {
+   display: flex;
+}
+.footer_contacts {
+   box-sizing: border-box;
+   padding-left: 85px;
+}
+
+.footer-title {
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 35px;
+   margin-top: 49px;
+   margin-bottom: 34px;
+
+   color: #ffffff;
+}
+
+.second-title {
+   margin-top: 29px;
+   margin-bottom: 28px;
+}
+
+.footer_contacts-list {
+   min-width: 540px;
+   list-style-type: none;
+   margin: 0;
+   margin-bottom: 52px;
+   padding: 0;
+   padding-left: 66px;
+   position: relative;
+}
+.footer_contacts-item {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+}
+.footer_contacts-text {
+   margin: 29px 0 0 0;
+}
+
+.footer_contacts-icon {
+   position: absolute;
+   left: 0px;
+}
+
+.footer_form-label {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+}
+
+.input-wrapper {
+   display: flex;
+   height: 60px;
+   margin-top: 15px;
+}
+
+.footer_form-input {
+   width: 447px;
+   border-radius: 3px;
+   padding-left: 21px;
+   font-weight: 400;
+   font-size: 24px;
+   font-family: inherit;
+}
+.footer_form-input::placeholder {
+   color: #e5e5e5;
+}
+
+.footer_form-button {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   text-transform: uppercase;
+   padding-right: 17px;
+   padding-left: 17px;
+   margin-left: 33px;
+
+   background: #2d2b2f;
+   color: #e5e5e5;
+   border: 1px solid #ffffff;
+   border-radius: 3px;
+}
+
+.footer_form-button:hover {
+   border-color: transparent;
+   background: #ffca62;
+   color: #2d2b2f;
+}
+
+.footer_form-button:active {
+   border-color: transparent;
+   background-color: #ffffff;
+   color: #2d2b2f;
+}
+
+.footer_subscribe-link {
+   margin-right: 49px;
+   fill: #ffffff;
+}
+
+.footer_subscribe-link:hover {
+   border-color: transparent;
+   fill: #ffca62;
+}
+
+.up {
+}
+
+.footer_logo-wrapper {
+   border-top: 1px solid #e5e5e5;
+   padding-top: 26px;
+}
+
+.content_logo-wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer_copyright {
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 28px;
+}

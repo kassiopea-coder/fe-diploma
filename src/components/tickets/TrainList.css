@@ -1,0 +1,67 @@
+.trainList_header {
+   display: flex;
+   justify-content: end;
+
+   margin-bottom: 47px;
+
+   font-size: 18px;
+   line-height: 21px;
+   color: #928f94;
+}
+
+.trains_totalCount {
+   margin-right: auto;
+}
+
+.trainList_sort,
+.trainList_view,
+.trainList_view-list {
+   display: flex;
+   align-items: flex-end;
+   margin: 0;
+   padding-left: 2px;
+}
+
+.trainList_sort-list {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+
+   width: 160px;
+
+   color: #292929;
+
+   -moz-appearance: none;
+   -webkit-appearance: none;
+}
+
+.trainList_view-item {
+   margin-left: 10px;
+   list-style-type: none;
+   cursor: pointer;
+}
+
+.trainList_view-item--active {
+   color: #000000;
+}
+
+.trainList_sort-list {
+   margin-left: 5px;
+   border: 0;
+
+   background: transparent;
+}
+
+.order_options {
+   width: 960px;
+}
+
+.trainList_sort-title,
+.trainList-title {
+   margin: 0;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+
+   color: #928f94;
+}

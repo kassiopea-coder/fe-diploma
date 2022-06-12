@@ -1,0 +1,76 @@
+.howItWork {
+   min-height: 575px;
+
+   display: flex;
+   align-items: center;
+
+   background-color: #ffa800;
+   background-image: url('../../img/backgrounds/howItWorks.png');
+   background-size: cover;
+}
+
+.howItWork_title-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.howItWork_title {
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 42px;
+   text-transform: uppercase;
+   margin: 0;
+
+   color: #ffffff;
+}
+
+.howItWork_info {
+   width: 920px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 107px;
+
+   display: flex;
+   justify-content: space-between;
+}
+
+.info-card {
+   text-align: center;
+}
+
+.info-card-text {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   color: #e5e5e5;
+   margin-top: 34px;
+}
+
+.howItWork_button {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+
+   height: 60px;
+
+   padding-right: 76px;
+   padding-left: 76px;
+   margin-right: 20px;
+
+   background: inherit;
+   color: #e5e5e5;
+   border: 1px solid #ffffff;
+   border-radius: 3px;
+}
+
+.howItWork_button:hover {
+   border-color: transparent;
+   background: #ffca62;
+   color: inherit;
+}
+
+.howItWork_button:active {
+   border-color: transparent;
+   background-color: #ffffff;
+   color: #2d2b2f;
+}

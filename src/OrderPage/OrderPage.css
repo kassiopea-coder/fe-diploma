@@ -1,0 +1,9 @@
+.order {
+   display: flex;
+   margin-top: 95px;
+}
+
+.sideBar {
+   width: 364px;
+   margin-right: 80px;
+}
