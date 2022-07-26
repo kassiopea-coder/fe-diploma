@@ -1,5 +1,5 @@
 import React from "react";
-import "./reviews.css";
+import "./Reviews.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import reviews_ava_1 from "./img/reviews_ava_1.png";
