@@ -1,0 +1,21 @@
+.carriageNumber__button_active {
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  border: none;
+}
+
+.carriageNumber__button {
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+  border: none;
+}
+
+.carriageNumber__button:hover {
+  color: #fff;
+}

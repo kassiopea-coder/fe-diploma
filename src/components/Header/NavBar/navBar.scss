@@ -1,0 +1,21 @@
+.header__navbar {
+  padding-left: 258px;
+  height: 94px;
+  background-color: #292929;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin-top: 28px;
+    margin-right: 83px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,51 @@
+.informationBlock__train {
+  height: 123px;
+  background: #f7f6f6;
+  display: flex;
+  align-items: center;
+}
+
+.train__exactInfo {
+  width: 240px;
+  border-right: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exactInfo__trainDetails {
+  margin-left: 27px;
+}
+
+.exactInfo__trainNumber {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #3e3c41;
+  margin-bottom: 5px;
+}
+
+.train__destinationsInfo {
+  width: calc(100% - 480px);
+  border-right: 1px solid #ffffff;
+}
+
+.train__travelTimeInfo {
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.travelTimeInfo__time {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.destinationsInfo {
+  display: flex;
+  align-items: center;
+}

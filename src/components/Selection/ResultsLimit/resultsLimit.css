@@ -1,0 +1,15 @@
+.resultsLimit__values {
+  margin-top: -1px;
+}
+
+.resultsLimit__btn {
+  font-size: 18px;
+  line-height: 21px;
+  color: #928f94;
+}
+
+.resultsLimit__active {
+  color: #000000;
+  font-size: 18px;
+  line-height: 21px;
+}

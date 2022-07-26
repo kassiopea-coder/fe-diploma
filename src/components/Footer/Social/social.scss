@@ -1,0 +1,8 @@
+.socials__img {
+  margin-right: 48px;
+
+  img:hover {
+    filter: invert(58%) sepia(56%) saturate(500%) hue-rotate(336deg)
+      brightness(151%) contrast(151%);
+  }
+}

@@ -1,0 +1,32 @@
+.sideSelector__container {
+  width: 360px;
+  min-height: 1012px;
+  background: #3e3c41;
+  margin-bottom: 94px;
+}
+
+.selector__seatsFilter {
+  height: 354px;
+  border-bottom: 1px solid #e5e5e5;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-top: 29px;
+  padding-left: 65px;
+  padding-right: 34px;
+}
+
+.seatsFilter__list {
+  width: 100%;
+}
+
+.selector__price {
+  min-height: 187px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.selector__timeTo {
+  min-height: 96px;
+  border-bottom: 1px solid #e5e5e5;
+}

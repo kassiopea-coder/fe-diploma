@@ -1,0 +1,78 @@
+.progressBar__container {
+  margin-bottom: 95px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.progressBar__item {
+  width: 620px;
+  height: 100px;
+  background-color: #3e3c41;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.item-active {
+  background-color: #ffa800;
+}
+
+.progressBar__item:not(:last-child):before {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: -36px;
+  width: 0;
+  height: 0;
+  content: "";
+  border-top: 50px solid transparent;
+  border-left: 35px solid #ffffff;
+  border-bottom: 50px solid transparent;
+}
+
+.progressBar__item:not(:last-child):after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: 3;
+  top: 0;
+  right: -35px;
+  content: "";
+  border-top: 50px solid transparent;
+  border-left: 35px solid #3e3c41;
+  border-bottom: 50px solid transparent;
+}
+
+.item-active:not(:last-child):after {
+  border-left: 35px solid #ffa800;
+}
+
+.progressBar__content {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+
+.progressBar__circle {
+  width: 56px;
+  height: 56px;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 100%;
+  margin-right: 28px;
+}
+
+.progressBar__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+}

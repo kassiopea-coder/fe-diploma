@@ -1,0 +1,290 @@
+.passengersPage__collapse {
+  margin-bottom: 46px;
+}
+
+.passengersPage__passenger-full {
+  width: 960px;
+  height: 723px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-top: 1px dashed #928f94;
+  box-sizing: border-box;
+  margin-bottom: 45px;
+  padding-top: 38px;
+}
+
+.passenger-full__header {
+  width: 960px;
+  height: 107px;
+  background: #f9f9f9;
+  box-sizing: border-box;
+  padding-left: 75px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.passenger__close {
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+.passenger__closeButton {
+  border: none;
+  background: transparent;
+}
+
+.passenger-full__content {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.passenger-full__selectAge {
+  width: 100%;
+  display: flex;
+}
+
+.passengersPage__passenger {
+  width: 960px;
+  height: 97px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.passenger__button {
+  background: transparent;
+  border: 2px solid #ffa800;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+.passengersPage__addPassenger {
+  width: 960px;
+  height: 97px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 103px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.passenger__title,
+.addPassenger__title {
+  font-size: 30px;
+  line-height: 35px;
+  color: #292929;
+}
+
+.addPassenger__button {
+  background: transparent;
+  border: none;
+}
+
+.passenger-full__selectAge {
+  margin-bottom: 45px;
+}
+
+.selectAge__container {
+  border: 1px solid #928f94;
+}
+
+.selectAge__container:hover,
+.selectAge__container:active,
+.selectAge__container:focus {
+  border: 1px solid #ffa800;
+}
+
+.passengerFullSelectAge__field {
+  border-radius: 5px;
+  border: 1px solid #928f94;
+}
+
+.passenger__sex_bd {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 50px;
+}
+
+.passenger__sex {
+  width: 205px;
+}
+
+.passengerSex__buttons {
+  display: flex;
+  margin-right: 35px;
+}
+
+.passengerSex__button {
+  font-weight: 900;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #000000;
+  height: 50px;
+  width: 102px;
+  text-align: center;
+  background: #ffffff;
+  border-top: 1px solid #928f94;
+  border-bottom: 1px solid #928f94;
+  cursor: pointer;
+}
+
+.male {
+  border-left: 1px solid #928f94;
+  border-right: 1px solid #928f94;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.female {
+  border-right: 1px solid #928f94;
+  border-left: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.sexButtonActive {
+  background: #ffa800;
+}
+
+.passengerBd__input {
+  width: 240px;
+  height: 50px;
+  border: 1px solid #928f94;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+}
+
+.passengerBd__input:hover,
+.passengerBd__input:focus,
+.passengerBd__input:active,
+.passport__input:hover,
+.passport__input:focus,
+.passport__input:active {
+  border: 1px solid #ffa800;
+}
+
+.passengerCheckbox__block {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+.passengerCheckbox__title {
+  font-size: 18px;
+  line-height: 21px;
+  color: #292929;
+}
+
+.passenger__passportData {
+  height: 153px;
+  border-top: 1px dashed #928f94;
+  border-bottom: 1px dashed #928f94;
+  padding-top: 37px;
+  padding-bottom: 33px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+}
+
+.passportData__block {
+  margin-right: 35px;
+}
+
+.passport__input {
+  width: 205px;
+  height: 50px;
+  border: 1px solid #928f94;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+}
+
+.passenger__next {
+  display: flex;
+  justify-content: end;
+  padding-right: 35px;
+  padding-top: 35px;
+}
+
+.passenger__nextDone {
+  height: 118px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background: #b2f6a1;
+}
+
+.nextDone__text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.nextDone__text img {
+  margin-right: 15px;
+}
+
+.passenger__nextError {
+  height: 113px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background: rgba(255, 61, 0, 0.38);
+}
+
+.nextError__text {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 18px;
+  line-height: 21px;
+  color: #292929;
+}
+
+.nextError__text span {
+  font-weight: bold;
+}
+
+.nextError__text img {
+  margin-right: 15px;
+}
+
+.passengerNext__button {
+  width: 303px;
+  height: 52px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #292929;
+  background-color: #ffffff;
+  border: 1px solid #292929;
+  border-radius: 5px;
+}

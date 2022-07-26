@@ -1,0 +1,75 @@
+.sortFilter__container {
+  width: 180px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+  font-style: normal;
+  color: #3e3c41;
+  background-color: transparent;
+}
+
+.sortFilter__dropdown {
+  height: 100%;
+  min-height: 100px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+  font-style: normal;
+  color: #3e3c41;
+  background: #f7f5f9;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  align-content: stretch;
+}
+
+.sortFilter__container .ant-select-selection-item {
+  font-size: 18px;
+}
+
+.ant-select-arrow {
+  display: none;
+}
+
+.sort .ant-select-item-active:not(.ant-select-item-disabled),
+.sort .ant-select-item-active:not(.ant-select-item-disabled):hover {
+  font-weight: normal;
+}
+
+.sort .ant-select-item:not(:last-child) {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.sort .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  color: #3e3c46;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #f7f5f9;
+}
+
+.sort
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled)
+  .ant-select-item-option-state {
+  color: #3e3c46;
+}
+
+.sort .ant-select-item,
+.sort .ant-select-item:active,
+.sort .ant-select-item:focus {
+  min-height: 32px;
+  padding: 5px 12px;
+  color: #3e3c46;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  background-color: #f7f5f9;
+  transition: all 0.3s ease;
+}
+
+.sort .ant-select-item-option-selected:hover,
+.sort .ant-select-item-option:hover {
+  background-color: #ffca62;
+  color: #ffffff;
+}

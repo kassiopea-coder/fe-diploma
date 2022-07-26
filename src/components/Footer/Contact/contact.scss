@@ -1,0 +1,20 @@
+.contact__container {
+  display: flex;
+  flex-wrap: nowrap;
+
+  .img {
+    width: 30px;
+    height: 30px;
+    margin-right: 36px;
+    margin-bottom: 30px;
+  }
+
+  .text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #e5e5e5;
+    width: 320px;
+  }
+}

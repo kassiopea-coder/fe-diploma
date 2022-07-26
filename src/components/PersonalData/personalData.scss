@@ -1,0 +1,29 @@
+.passenger__initials {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.passengerInput__title {
+  font-size: 16px;
+  line-height: 19px;
+  color: #928f94;
+  margin-bottom: 8px;
+}
+
+.passengerInitials__input {
+  width: 280px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+  border: 1px solid #928f94;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border: 1px solid #ffa800;
+  }
+}

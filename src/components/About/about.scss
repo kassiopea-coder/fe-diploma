@@ -1,0 +1,36 @@
+.about {
+  padding: 100px 258px;
+
+  .title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+
+  .content {
+    display: flex;
+
+    .line {
+      width: 9px;
+      background-color: #ffa800;
+      margin-right: 20px;
+      flex: 1 0 auto;
+    }
+
+    .text {
+      font-size: 24px;
+      font-weight: 400;
+      white-space: pre-line;
+
+      p {
+        margin-bottom: 35px;
+
+        &:last-child {
+          margin-bottom: 0;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

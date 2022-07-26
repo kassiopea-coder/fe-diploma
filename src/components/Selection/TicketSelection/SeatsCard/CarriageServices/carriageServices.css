@@ -1,0 +1,40 @@
+.seatsInfo__services {
+  display: flex;
+  padding-right: 59px;
+}
+
+.seatsInfo__icon button {
+  border: none;
+  background-color: transparent;
+}
+
+.seatsInfo__services-tooltip {
+  display: flex;
+  box-sizing: border-box;
+  width: 276px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tooltip_inside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip_inside_content {
+  margin-right: 5px;
+  color: black;
+}
+
+.tooltip_inside_moneySymbol img {
+  margin-top: -4px;
+  width: 10px;
+  height: 14px;
+  flex-grow: 0;
+  color: #928f94;
+}

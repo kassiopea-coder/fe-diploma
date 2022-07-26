@@ -1,0 +1,61 @@
+.informationBlock__type {
+  height: 216px;
+  padding-top: 27px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.type__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #292929;
+}
+
+.type__types {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.type__block {
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+
+.type__block .active {
+  color: #ffa800;
+}
+
+.type__block img {
+  margin-bottom: 18px;
+}
+
+.type__block:hover,
+.type__block:focus {
+  color: #ffa800;
+  width: 130px;
+  height: 130px;
+  border: 2px solid #ffa800;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.type__block:disabled:hover {
+  color: #c4c4c4;
+  border: 0;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+
+.type__name {
+  font-size: 24px;
+  line-height: 28px;
+  color: #928f94;
+}
+
+.type__name .active {
+  color: #ffa800;
+}
