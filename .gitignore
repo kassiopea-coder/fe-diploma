@@ -25,3 +25,8 @@ yarn-error.log*
 
 .idea
 Thumbs.db*
+
+/api
+/public
+/reference
+/src
