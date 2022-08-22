@@ -35,7 +35,7 @@ const ConfirmPage = memo(() => {
   const passengers = useSelector((state) => state.passengersData.items);
 
   const toSuccessPage = () => {
-    fetch("https://netology-trainbooking.netoservices.ru/order", {
+    fetch("https://fe-diplom.herokuapp.com/order", {
       method: "POST",
       body: JSON.stringify({
         user: {
